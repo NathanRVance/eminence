@@ -1,9 +1,6 @@
-# Eminence - Purple/Violet Dark theme for E
-[![License](https://img.shields.io/badge/license-GPLv3-9977bb.svg?style=plastic)](https://github.com/Obsidian-StudiosInc/ebuild-bumper/blob/master/LICENSE)
-[![Build Status](https://img.shields.io/travis/Obsidian-StudiosInc/eminence/master.svg?colorA=9977bb&style=plastic)](https://travis-ci.org/Obsidian-StudiosInc/eminence)
-[![Build Status](https://img.shields.io/shippable/58fa9a131fb3ec0700df16e7/master.svg?colorA=9977bb&style=plastic)](https://app.shippable.com/github/Obsidian-StudiosInc/eminence)
+# EminenceBlue - Blue Dark theme for E
 
-This is a dark theme with purple icons and some purple highlights. It is 
+This is a dark theme with blue icons and some blue highlights, based on the [Eminence theme from Obsidion-StudionInc](https://github.com/Obsidian-StudiosInc/eminence/releases). It is 
 meant to be easy on the eyes, and ideally light weight. This theme is a 
 work in progress.
 
@@ -24,7 +21,7 @@ This theme has evolved to more than just color modifications to the
 default theme. It will be a semi hybrid between the default theme, Arc, 
 and personal preferences.
 
-See [releases](https://github.com/Obsidian-StudiosInc/eminence/releases) 
+See [releases](https://github.com/nathanrvance/eminence-blue/releases) 
 to download themes.
 
 ![A screenshot of Eminence Theme](https://user-images.githubusercontent.com/12835340/28030854-6c079512-6573-11e7-8851-8311662ec359.jpg)

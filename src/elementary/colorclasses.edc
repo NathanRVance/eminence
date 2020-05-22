@@ -4,6 +4,9 @@
 #define GREEN_LIGHT               40 200  75 255
 #define PURPLE_DARK               90  65 130 255
 #define PURPLE_LIGHT             150 110 220 255
+#define BLUE_LIGHT                52 151 252 255
+#define BLUE_ULTRALIGHT          139 198 255 255
+#define BLUE_DARK                 23  62 102 255
 #define RED                      205  90  90 255
 #define RED_DARK                 100  35  35 255
 #define RED_LIGHT                215 120 125 255
@@ -12,8 +15,8 @@
 #define YELLOW_LIGHT             230 220   5 255
 
 #define COL_NORM                  40  40  40 255
-#define COL_HOVER                PURPLE_LIGHT
-#define COL_ENABLE               PURPLE_DARK
+#define COL_HOVER                BLUE_LIGHT
+#define COL_ENABLE               BLUE_DARK
 #define COL_PRESSED              COL_ENABLE
 #define COL_SELECTED             COL_ENABLE
 
@@ -954,7 +957,7 @@ color_classes {
       desc: "Module symbol pressed color";
    }
    color_class { name: "clock_text";
-      color: PURPLE_LIGHT;
+      color: BLUE_ULTRALIGHT;
       desc: "Clock: text color of digital clock";
    }
    color_class { name: "clock_bg";

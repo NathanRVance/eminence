@@ -579,6 +579,10 @@ group { name: "elm/button/base/anchor";
             rel1.offset: 0 0;
             rel2.offset: 0 0;
          }
+	desc { "clicked";
+            inherit: "default";
+            // visible: 1;
+         }
       }
       rect { "icon_clip";
          desc { "default";
@@ -945,6 +949,10 @@ group { name: "elm/button/base/media_player/prev/default";
             inherit: "default";
             visible: 1;
          }
+	desc { "clicked";
+            inherit: "default";
+            // visible: 1;
+         }
       }
       image { "shadow2"; nomouse;
          clip_to: "clip";
@@ -959,6 +967,10 @@ group { name: "elm/button/base/media_player/prev/default";
          desc { "selected";
             inherit: "default";
             visible: 1;
+         }
+	desc { "clicked";
+            inherit: "default";
+            // visible: 1;
          }
       }
       swallow { "elm.swallow.content"; nomouse;
@@ -2222,6 +2234,9 @@ group { name: "elm/button/base/combobox_vertical/default";
             inherit: "default";
             color_class: "arrow_icon_pressed";
          }
+	desc { "disabled";
+	    inherit: "default";
+	}
       }
    }
    programs {

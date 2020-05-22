@@ -11,9 +11,9 @@
 VERSION=0.1.13
 
 # Purple color variables
-RGB="150 110 220"
-HTML="966edc"
-HSB="110,72,128"
+RGB="52 151 252"
+HTML="3497fc"
+HSB="210,79,99"
 
 shopt -s extglob
 

@@ -30,6 +30,9 @@ group { name: "elm/gengrid/item/default/default";
          description { state: "odd" 0.0; \
             color_class: "list_item_base_odd"; \
          } \
+         description { state: "odd" 1.0; \
+            color_class: "list_item_base"; \
+         } \
       } \
       program { \
          signal: "elm,state,odd"; source: "elm"; \
@@ -58,6 +61,10 @@ group { name: "elm/gengrid/item/default/default";
             inherit: "default" 0.0; \
             visible: 1; \
             color_class: "list_item_base_selected"; \
+         } \
+         description { state: "disabled" 0.0; \
+            inherit: "default" 0.0; \
+            visible: 1; \
          } \
       } \
       part { name: "sel_border"; mouse_events: 0; \
@@ -574,6 +581,10 @@ group { name: "elm/gengrid/item/thumb/default";
             visible: 1;
             color_class: "list_item_base_selected";
          }
+         description { state: "disabled" 0.0;
+            inherit: "default" 0.0;
+            visible: 1;
+         }
       }
       part { name: "sel_border"; mouse_events: 0;
          scale: 1;
@@ -589,6 +600,10 @@ group { name: "elm/gengrid/item/thumb/default";
             inherit: "default" 0.0;
             visible: 1;
             color_class: "list_item_border_selected";
+         }
+         description { state: "disabled" 0.0;
+            inherit: "default" 0.0;
+            visible: 1;
          }
       }
       program {

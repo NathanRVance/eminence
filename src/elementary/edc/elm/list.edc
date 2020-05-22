@@ -156,6 +156,9 @@ group { name: "elm/list/item/default";
          description { state: "odd" 0.0;
             color_class: "list_item_base_odd";
          }
+         description { state: "odd" 1.0;
+            color_class: "list_item_base";
+         }
       }
       program {
          signal: "elm,state,odd"; source: "elm";
@@ -463,6 +466,9 @@ group { name: "elm/list/h_item/default";
          }
          description { state: "odd" 0.0;
             color_class: "list_item_base_odd";
+         }
+         description { state: "odd" 1.0;
+            color_class: "list_item_base";
          }
       }
       program {

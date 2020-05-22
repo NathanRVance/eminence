@@ -893,6 +893,18 @@ group { name: "e/fileman/default/window/main";
             rel2.offset: -9 -5;
             fixed: 0 1;
          }
+         description { state: "tb_left" 0.0;
+            align: 0.0 0.5;
+            rel1.offset: 0 0;
+            rel2.offset: -13 0;
+            fixed: 0 1;
+         }
+         description { state: "tb_right" 0.0;
+            align: 1.0 0.5;
+            rel1.offset: 8 0;
+            rel2.offset: -5 0;
+            fixed: 0 1;
+         }
       }
       part { name: "region"; type: SPACER;
          scale: 1;

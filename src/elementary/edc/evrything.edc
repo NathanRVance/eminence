@@ -802,6 +802,9 @@ group { name: "e/modules/everything/thumbview/main/scrollframe";
             rel2.to: "sb_vbar_base";
             color: 0 0 0 0;
          }
+	description { "clicked" 0.0;
+            inherit: "default";
+         }
       }
       program {      
          signal: "e,action,show,vbar"; source: "e";

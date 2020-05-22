@@ -24,7 +24,7 @@ and personal preferences.
 See [releases](https://github.com/nathanrvance/eminence-blue/releases) 
 to download themes.
 
-![A screenshot of Eminence Theme](https://user-images.githubusercontent.com/12835340/28030854-6c079512-6573-11e7-8851-8311662ec359.jpg)
+![A screenshot of Eminence Theme](https://user-images.githubusercontent.com/10491434/82689655-d8e91400-9c28-11ea-898a-68c5adc4b1ac.jpg)
 
 ## Building
 For the time being you will need to copy the
